@@ -1,0 +1,19 @@
+name:                bluetick
+synopsis:            Next-gen SQL library integrated with Persistent
+version:             0.1.0.0
+homepage:            https://github.com/bitemyapp/bluetick
+license:             Apache2
+author:              Chris Allen
+maintainer:          cma@bitemyapp.com
+copyright:           2017 Chris Allen
+category:            Database
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  bluetick:
+    source-dirs:      src
+    main:             Main.hs
